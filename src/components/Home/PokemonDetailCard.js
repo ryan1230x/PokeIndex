@@ -39,11 +39,11 @@ function PokemonDetailCard({ pokemon, imageUrl }) {
         <Link to={`/pokemon/${name}`}>
           <CardMedia
             className={classes.media}
-	          image={imageUrl}
-	          alt={`image of ${name}`}
-	          title={name}
-	        />
-	      </Link>
+            image={imageUrl}
+            alt={`image of ${name}`}
+            title={name}
+          />
+        </Link>
         <CardContent>
           <Typography 
             className={classes.title} 
@@ -56,9 +56,9 @@ function PokemonDetailCard({ pokemon, imageUrl }) {
       <CardActions>
         <Link to={`/pokemon/${name}`}>
           <Button size="large" color="primary">
-	          Learn More
-	       </Button>
-	      </Link>
+            Learn More
+         </Button>
+        </Link>
       </CardActions>
     </Card>
   )
